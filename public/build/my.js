@@ -1,1 +1,1 @@
-alert("Привет, я - JavaScript!");
+function show(e,o){null==o?alert(e+" - ECMA"):alert(e+o)}function checkSomeone(e){if(""==e&&alert("Вход отменен!"),"PHP"==e&&alert("Нет, не стоит"),"JavaScript"==e){var o=prompt("Введите пароль","");null==o&&alert("Вход отменен"),"Не важно что"==o&&alert("Пароль не верен"),"ECMA"==o&&alert("Добро пожаловать!")}}show("JavaScript");var someone=prompt("Кто пришел?","");checkSomeone(someone);

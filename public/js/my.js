@@ -13,7 +13,7 @@
 		if (someone == 'PHP') alert('Нет, не стоит');
 		if (someone == 'JavaScript'){
 			var pass = prompt ('Введите пароль','');
-			if (pass == null) alert ('Вход отменен');
+			if (pass == '') alert ('Вход отменен');
 			if (pass == 'Не важно что') alert ('Пароль не верен');
 			if (pass == 'ECMA') alert ('Добро пожаловать!');
 		}
